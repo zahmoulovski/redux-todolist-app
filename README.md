@@ -1,3 +1,9 @@
+👋 Hi, I’m @zahmoulovski Med Yassine
+👀 I’m interested in Android dev.
+🌱 I’m currently learning Full stack developer at Gomycode.
+💞️ I’m looking to collaborate on JS
+📫 How to reach me medyassine.zahmoul@gmail.com or WhatsApp +21621858646
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

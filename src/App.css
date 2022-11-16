@@ -1,0 +1,72 @@
+/* https://codepen.io/alvarotrigo/pen/PoKMyNO */
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ml-2{
+  width: -webkit-fill-available;
+}
+.btn{
+  margin: 10px;
+}
+
+.table>tbody {
+  vertical-align: middle;
+}
+.border {
+  border: 0;
+}
+
+span.badge.badge-danger.p-2 {
+  background-color: #ff0000;
+}
+span.badge.badge-success.p-2 {
+  background-color: #008000;
+}
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+button.theme {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.dark table.table.table-bordered {
+  color: #fff;
+}
